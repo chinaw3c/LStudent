@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/_Liuaotian/studentsystem/src/main.cpp
+people.h
+/root/_Liuaotian/studentsystem/src/people.h
+
+/root/_Liuaotian/studentsystem/src/people.cpp
+people.h
+/root/_Liuaotian/studentsystem/src/people.h
+
+/root/_Liuaotian/studentsystem/src/people.h
+string
+-
+iostream
+-
+
