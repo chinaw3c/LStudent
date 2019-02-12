@@ -7,5 +7,9 @@
 #include "people.h"
 
 int main(int argc, char **argv){
-    
+    People * people_data = new People();
+    people_data->init_data();
+
+
+    return 0;
 }//function main

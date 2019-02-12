@@ -23,7 +23,7 @@ public:
     bool init_data();
 private:
     char blood_group[3]; //血型
-    char sex;            //性别
+    char sex[3];            //性别
     LPeople::u_int height;//身高
     LPeople::u_int age;   //年龄
     LPeople::string name; //姓名
